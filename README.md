@@ -17,3 +17,8 @@ Hello! Welcome to my personal portfolio.
 **Ariadna Crespo Chamorro**  
 Master’s in Electromechanical Engineering, KU Leuven  
 📧 ariadnacrespochamorro@gmail.com
+
+## INSPO
+https://wodniack.dev/
+https://animejs.com/
+https://logartis.info/
