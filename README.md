@@ -12,3 +12,9 @@ automation and design projects.
 - HTML
 - CSS
 - JavaScript
+
+## Authors
+
+**Ariadna Crespo Chamorro**  
+Master’s in Electromechanical Engineering, KU Leuven  
+📧 ariadnacrespochamorro@gmail.com
