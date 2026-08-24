@@ -1,7 +1,6 @@
 # @ariadnc's website
 
-Personal portfolio website showcasing my engineering, robotics,
-automation and design projects.
+Hello! Welcome to my personal portfolio.
 
 ## 🔗 Links
 - 🌐 (file:///C:/Users/ariad/Documents/GitHubProjects/my-website/index.html) 
