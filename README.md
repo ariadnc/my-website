@@ -19,6 +19,6 @@ Master’s in Electromechanical Engineering, KU Leuven
 📧 ariadnacrespochamorro@gmail.com
 
 ## INSPO
-https://wodniack.dev/
-https://animejs.com/ (create 3D animation)
-https://logartis.info/
+- https://wodniack.dev/
+- https://animejs.com/ (create 3D animation)
+- https://logartis.info/
