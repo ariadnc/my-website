@@ -1,67 +1,340 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f2;
-    color: lightblue;
+```css
+/* =========================================================
+   DESIGN SYSTEM
+   Based on Figma styles
+   ========================================================= */
+
+
+/* =========================================================
+   COLORS
+   ========================================================= */
+
+:root {
+
+    /* ---------- Text Colors ---------- */
+
+    --color-text-h1: #F6F8FB;
+    --color-text-h2: #0F0E0E;
+    --color-text-p1: #F6F8FB;
+    --color-text-p2: #0F0E0E;
+    --color-text-p3: #8C8D92;
+    --color-text-p4: #D1D2D8;
+
+
+    /* ---------- Background Colors ---------- */
+
+    --color-bg-b1: #0F0E0E;
+    --color-bg-b2: #F5F5F5;
+    --color-bg-b3: #FFFFFF;
+    --color-bg-b5: #F9D17C;
+    --color-bg-b6: #8ED0FF;
+    --color-bg-b7: #D84D8E;
+    --color-bg-b8: #9AA03E;
+}
+
+
+/* =========================================================
+   FONTS
+   ========================================================= */
+
+:root {
+
+    --font-h1: "VT323", monospace;
+    --font-h2: "Tilt Wrap", sans-serif;
+    --font-h3: "Tilt Wrap", sans-serif;
+    --font-h4: "Tiny5", monospace;
+    --font-h5: "Tilt Wrap", sans-serif;
+
+    --font-p1: "IBM Plex Mono", monospace;
+    --font-p2: "Inter", sans-serif;
+    --font-p3: "Inter", sans-serif;
+    --font-caption: "IBM Plex Mono", monospace;
+}
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--color-bg-b1);
+    color: var(--color-text-h1);
+
+    font-family: var(--font-p2);
 }
 
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* =========================================================
+   HEADINGS
+   ========================================================= */
 
-    padding: 25px 50px;
-}
-
-
-nav a {
-    color: #111111;
-    text-decoration: none;
-}
-
-
-main {
-    max-width: 900px;
-    margin: 150px auto;
-    padding: 0 30px;
-}
-
+/* H1
+   VT323
+   250px
+   Line height: 85%
+   Letter spacing: -4%
+*/
 
 h1 {
-    font-size: 70px;
-    max-width: 700px;
+    margin: 0;
+
+    font-family: var(--font-h1);
+    font-size: 250px;
+    font-weight: 400;
+
+    line-height: 0.85;
+    letter-spacing: -0.04em;
+
+    color: var(--color-text-h1);
 }
 
 
-p {
+/* H2
+   Tilt Wrap Regular
+   160px
+   Line height: 80%
+   Letter spacing: -5%
+*/
+
+h2 {
+    margin: 0;
+
+    font-family: var(--font-h2);
+    font-size: 160px;
+    font-weight: 400;
+
+    line-height: 0.80;
+    letter-spacing: -0.05em;
+
+    color: var(--color-text-h2);
+}
+
+
+/* H3
+   Tilt Wrap Regular
+   110px
+   Line height: 80%
+   Letter spacing: -5%
+*/
+
+h3 {
+    margin: 0;
+
+    font-family: var(--font-h3);
+    font-size: 110px;
+    font-weight: 400;
+
+    line-height: 0.80;
+    letter-spacing: -0.05em;
+
+    color: var(--color-text-h2);
+}
+
+
+/* H4
+   Tiny5
+   80px
+   Line height: 90%
+   Letter spacing: -2%
+*/
+
+h4 {
+    margin: 0;
+
+    font-family: var(--font-h4);
+    font-size: 80px;
+    font-weight: 400;
+
+    line-height: 0.90;
+    letter-spacing: -0.02em;
+
+    color: var(--color-text-h2);
+}
+
+
+/* H5
+   Tilt Wrap Regular
+   24px
+   Line height: 140%
+   Letter spacing: -2%
+*/
+
+h5 {
+    margin: 0;
+
+    font-family: var(--font-h5);
+    font-size: 24px;
+    font-weight: 400;
+
+    line-height: 1.40;
+    letter-spacing: -0.02em;
+
+    color: var(--color-text-h2);
+}
+
+
+/* =========================================================
+   PARAGRAPHS
+   ========================================================= */
+
+/* P1
+   IBM Plex Mono Bold
+   20px
+   Line height: 140%
+   Letter spacing: -2%
+*/
+
+.p1 {
+    margin: 0;
+
+    font-family: var(--font-p1);
     font-size: 20px;
+    font-weight: 700;
+
+    line-height: 1.40;
+    letter-spacing: -0.02em;
+
+    color: var(--color-text-p1);
 }
 
 
-button {
-    margin-top: 30px;
+/* P2
+   Inter Regular
+   20px
+   Line height: 140%
+   Letter spacing: -2%
+*/
 
-    padding: 15px 25px;
+.p2 {
+    margin: 0;
 
-    border: none;
-    border-radius: 5px;
+    font-family: var(--font-p2);
+    font-size: 20px;
+    font-weight: 400;
 
-    background-color: #111111;
-    color: white;
+    line-height: 1.40;
+    letter-spacing: -0.02em;
 
+    color: var(--color-text-p2);
+}
+
+
+/* P3
+   Inter Regular
+   16px
+   Line height: 140%
+   Letter spacing: -2%
+*/
+
+.p3 {
+    margin: 0;
+
+    font-family: var(--font-p3);
     font-size: 16px;
+    font-weight: 400;
 
-    cursor: pointer;
+    line-height: 1.40;
+    letter-spacing: -0.02em;
+
+    color: var(--color-text-p3);
 }
 
 
-button:hover {
-    transform: translateY(-3px);
+/* =========================================================
+   CAPTION
+   ========================================================= */
+
+/* Caption
+   IBM Plex Mono Semibold
+   10px
+   Line height: 140%
+   Letter spacing: 4%
+*/
+
+.caption {
+    margin: 0;
+
+    font-family: var(--font-caption);
+    font-size: 10px;
+    font-weight: 600;
+
+    line-height: 1.40;
+    letter-spacing: 0.04em;
+
+    color: var(--color-text-p4);
 }
 
 
-#message {
-    margin-top: 30px;
-    font-weight: bold;
+/* =========================================================
+   BACKGROUND UTILITY CLASSES
+   ========================================================= */
+
+.bg-b1 {
+    background-color: var(--color-bg-b1);
 }
+
+.bg-b2 {
+    background-color: var(--color-bg-b2);
+}
+
+.bg-b3 {
+    background-color: var(--color-bg-b3);
+}
+
+.bg-b5 {
+    background-color: var(--color-bg-b5);
+}
+
+.bg-b6 {
+    background-color: var(--color-bg-b6);
+}
+
+.bg-b7 {
+    background-color: var(--color-bg-b7);
+}
+
+.bg-b8 {
+    background-color: var(--color-bg-b8);
+}
+
+
+/* =========================================================
+   TEXT COLOR UTILITY CLASSES
+   ========================================================= */
+
+.text-h1 {
+    color: var(--color-text-h1);
+}
+
+.text-h2 {
+    color: var(--color-text-h2);
+}
+
+.text-p1 {
+    color: var(--color-text-p1);
+}
+
+.text-p2 {
+    color: var(--color-text-p2);
+}
+
+.text-p3 {
+    color: var(--color-text-p3);
+}
+
+.text-p4 {
+    color: var(--color-text-p4);
+}
+```
