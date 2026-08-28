@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -6,46 +7,285 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Inter:wght@400&family=Tiny5&family=Tilt+Warp&family=VT323&display=swap" rel="stylesheet">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ariadna's Website</title>
+    <title>Ariadna | Style Test</title>
 
-    <!-- Connect CSS -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Inter:wght@400&family=Tiny5&family=Tilt+Warp&family=VT323&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Your CSS -->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
+
 
 <body>
 
-    <nav>
-        <h2>Ariadna Crespo Chamorro</h2>
+    <!-- =====================================================
+         H1 TEST
+         ===================================================== -->
 
-        <a href="#">About</a>
-    </nav>
+    <section class="bg-b1" style="padding: 40px;">
 
-
-    <main>
-
-        <h1>Electromechanical Engineer</h1>
-
-        <p>
-            Robotics · Automation ·  Mechatronics · Artificial Intelligence
+        <p class="caption">
+            TYPOGRAPHY TEST / H1
         </p>
 
-        <button id="helloButton">
-            Click me
-        </button>
+        <h1>
+            ELECTROMECHANICAL
+        </h1>
 
-        <p id="message"></p>
+        <h1>
+            ENGINEER
+        </h1>
 
-    </main>
+        <p class="p1">
+            Robotics · Automation · Mechatronics · AI
+        </p>
+
+    </section>
 
 
-    <!-- Connect JavaScript -->
-    <script src="js/main.js"></script>
+    <!-- =====================================================
+         H2 TEST
+         ===================================================== -->
+
+    <section class="bg-b2" style="padding: 60px;">
+
+        <p class="caption text-p3">
+            TYPOGRAPHY TEST / H2
+        </p>
+
+        <h2>
+            ROBOTICS
+        </h2>
+
+        <p class="p2">
+            Engineering intelligent machines and automated systems.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         H3 TEST
+         ===================================================== -->
+
+    <section class="bg-b3" style="padding: 60px;">
+
+        <p class="caption text-p3">
+            TYPOGRAPHY TEST / H3
+        </p>
+
+        <h3>
+            AUTOMATION
+        </h3>
+
+        <p class="p2">
+            From control systems and PLC programming to industrial automation.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         H4 TEST
+         ===================================================== -->
+
+    <section class="bg-b5" style="padding: 60px;">
+
+        <p class="caption text-p2">
+            TYPOGRAPHY TEST / H4
+        </p>
+
+        <h4>
+            MECHATRONICS
+        </h4>
+
+        <p class="p2">
+            Combining mechanics, electronics, software and control.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         H5 TEST
+         ===================================================== -->
+
+    <section class="bg-b6" style="padding: 60px;">
+
+        <p class="caption text-p2">
+            TYPOGRAPHY TEST / H5
+        </p>
+
+        <h5>
+            Designing systems where hardware and software work together.
+        </h5>
+
+    </section>
+
+
+    <!-- =====================================================
+         PARAGRAPH TESTS
+         ===================================================== -->
+
+    <section class="bg-b7" style="padding: 60px;">
+
+        <p class="caption text-p1">
+            PARAGRAPH STYLES
+        </p>
+
+        <p class="p1">
+            P1 — IBM Plex Mono Bold, 20px
+        </p>
+
+        <br>
+
+        <p class="p2">
+            P2 — Inter Regular, 20px
+        </p>
+
+        <br>
+
+        <p class="p3">
+            P3 — Inter Regular, 16px
+        </p>
+
+        <br>
+
+        <p class="caption">
+            CAPTION — IBM Plex Mono Semibold, 10px
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         BACKGROUND COLOR TEST
+         ===================================================== -->
+
+    <section style="padding: 0;">
+
+        <div class="bg-b1" style="padding: 40px;">
+            <p class="p1">BACKGROUND B1 — DARK</p>
+        </div>
+
+        <div class="bg-b2" style="padding: 40px;">
+            <p class="text-p2">BACKGROUND B2 — LIGHT GREY</p>
+        </div>
+
+        <div class="bg-b3" style="padding: 40px;">
+            <p class="text-p2">BACKGROUND B3 — WHITE</p>
+        </div>
+
+        <div class="bg-b5" style="padding: 40px;">
+            <p class="text-p2">BACKGROUND B5 — YELLOW</p>
+        </div>
+
+        <div class="bg-b6" style="padding: 40px;">
+            <p class="text-p2">BACKGROUND B6 — BLUE</p>
+        </div>
+
+        <div class="bg-b7" style="padding: 40px;">
+            <p class="text-p1">BACKGROUND B7 — PINK</p>
+        </div>
+
+        <div class="bg-b8" style="padding: 40px;">
+            <p class="text-p1">BACKGROUND B8 — OLIVE</p>
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TEXT COLOR TEST
+         ===================================================== -->
+
+    <section class="bg-b1" style="padding: 60px;">
+
+        <p class="caption">
+            TEXT COLOR UTILITIES
+        </p>
+
+        <br>
+
+        <p class="text-h1">
+            text-h1 — Heading light
+        </p>
+
+        <p class="text-h2">
+            text-h2 — Heading dark
+        </p>
+
+        <p class="text-p1">
+            text-p1 — Paragraph light
+        </p>
+
+        <p class="text-p2">
+            text-p2 — Paragraph dark
+        </p>
+
+        <p class="text-p3">
+            text-p3 — Paragraph grey
+        </p>
+
+        <p class="text-p4">
+            text-p4 — Caption light grey
+        </p>
+
+    </section>
+
+
+    <!-- =====================================================
+         PORTFOLIO EXAMPLE
+         ===================================================== -->
+
+    <section class="bg-b8" style="padding: 80px;">
+
+        <p class="caption text-p1">
+            ARIADNA CRESPO CHAMORRO / 2026
+        </p>
+
+        <h3>
+            BUILDING
+        </h3>
+
+        <h3>
+            MACHINES
+        </h3>
+
+        <p class="p1">
+            ELECTROMECHANICAL ENGINEER
+        </p>
+
+        <br>
+
+        <p class="p2">
+            Robotics · Automation · Mechatronics
+        </p>
+
+        <br>
+
+        <p class="p3">
+            I design and develop technical solutions combining
+            engineering, programming and creative problem solving.
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
+```
 
 </body>
 
