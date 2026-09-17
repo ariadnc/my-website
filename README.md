@@ -1,5 +1,5 @@
 # @ariadnc's website
-
+Work in progress 🚧
 Hello! Welcome to my personal portfolio.
 
 ## 🔗 Links
@@ -22,3 +22,4 @@ Master’s in Electromechanical Engineering, KU Leuven
 - https://wodniack.dev/
 - https://animejs.com/ (create 3D animation)
 - https://logartis.info/
+- https://readymag.com/
