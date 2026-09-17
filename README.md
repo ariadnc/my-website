@@ -23,3 +23,5 @@ Master’s in Electromechanical Engineering, KU Leuven
 - https://animejs.com/ (create 3D animation)
 - https://logartis.info/
 - https://readymag.com/
+
+<img width="2189" height="1256" alt="image" src="https://github.com/user-attachments/assets/d06a2eac-59a2-4dc2-a550-ae0cb488d7fe" />
