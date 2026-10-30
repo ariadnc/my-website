@@ -20,7 +20,7 @@ Master’s in Electromechanical Engineering, KU Leuven
 
 ## INSPO
 - https://wodniack.dev/
-- https://animejs.com/ (create 3D animation)
+- https://animejs.com/ (create 3D animation) node.js
 - https://logartis.info/
 - https://readymag.com/
 
